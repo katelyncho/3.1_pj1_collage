@@ -1,0 +1,160 @@
+body {
+  min-width: 200px;
+  max-width: 100%;
+  height: 800px;
+  margin: 0;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr;
+  background-color: lightgrey;
+  padding-left: 20px;
+}
+
+#main {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  text-align: left;
+  align-content: center;
+}
+
+#title {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  text-align: center;
+  font-size: 30px;
+}
+
+#gridcontainer {
+  width: 100%;
+  height: 800px;
+  display: grid;
+  grid-template-columns: 40% 10px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 50px 40px 1fr 50px 40px 1fr 50px 80px;
+}
+
+#item1 {
+  background: red;
+  grid-column: 1/2;
+  grid-row: 1/9;
+}
+
+#item2 {
+  background: blue;
+  grid-column: 3/5;
+  grid-row: 1/2;
+}
+
+#item3 {
+  background: purple;
+  grid-column: 3/5;
+  grid-row: 2/3;
+}
+
+#item4 {
+  background: blue;
+  grid-column: 6/8;
+  grid-row: 1/2;
+}
+
+#item5 {
+  background: purple;
+  grid-column: 6/8;
+  grid-row: 2/3;
+}
+
+#item6 {
+  background: blue;
+  grid-column: 9/11;
+  grid-row: 1/2;
+}
+
+#item7 {
+  background: purple;
+  grid-column: 9/11;
+  grid-row: 2/3;
+}
+
+#item8 {
+  background: blue;
+  grid-column: 4/6;
+  grid-row: 4/5;
+}
+
+#item9 {
+  background: purple;
+  grid-column: 4/6;
+  grid-row: 5/6;
+}
+
+#item10 {
+  background: blue;
+  grid-column: 7/9;
+  grid-row: 4/5;
+}
+
+#item11 {
+  background: purple;
+  grid-column: 7/9;
+  grid-row: 5/6;
+}
+
+#item12 {
+  background: blue;
+  grid-column: 10/12;
+  grid-row: 4/5;
+}
+
+#item13 {
+  background: purple;
+  grid-column: 10/12;
+  grid-row: 5/6;
+}
+
+#item14 {
+  background: blue;
+  grid-column: 5/7;
+  grid-row: 7/8;
+}
+
+#item15 {
+  background: purple;
+  grid-column: 5/7;
+  grid-row: 8/9;
+}
+
+#item16 {
+  background: blue;
+  grid-column: 8/10;
+  grid-row: 7/8;
+}
+
+#item17 {
+  background: purple;
+  grid-column: 8/10;
+  grid-row: 8/9;
+}
+
+#item18 {
+  background: green;
+  grid-column: 1/2;
+  grid-row: 9/10;
+  text-align: left;
+  align-content: center;
+  padding-left: 20px;
+}
+
+#item19 {
+  background: green;
+  grid-column: 10/12;
+  grid-row: 9/10;
+  text-align: right;
+  align-content: center;
+  padding-right: 20px;
+}
+
+#imgcontainer {
+  position: absolute;
+}
