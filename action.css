@@ -5,6 +5,7 @@ body {
   margin: 0;
 }
 
+/* header with title and home link */
 header {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
@@ -137,6 +138,7 @@ header {
   grid-row: 8/9;
 }
 
+/* hyperlinks to move around pages instead of footer because I..forgot to include footer*/
 #item18 {
   background: green;
   grid-column: 1/2;
@@ -155,6 +157,7 @@ header {
   padding-right: 20px;
 }
 
+/* for etc images */
 #imgcontainer {
   position: absolute;
 }
