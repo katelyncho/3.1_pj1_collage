@@ -4,7 +4,7 @@ body {
   min-width: 200px;
   max-width: 100%;
   height: 800px;
-  margin: 0;
+  margin: 20px;
   font-family: "Handjet", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -13,7 +13,10 @@ body {
 
 header {
   padding: 10px;
-  text-align: center;
-  font-family: "Major Mono Display", monospace;
+  text-align: left;
+  font-family: "Handjet", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "ELGR" 1, "ELSH" 2;
   font-size: 30px;
 }
