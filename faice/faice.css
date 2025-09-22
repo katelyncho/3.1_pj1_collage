@@ -194,6 +194,14 @@ footer {
   z-index: 1;
 }
 
+#etcImages4 {
+  position: absolute;
+  opacity: 0.7;
+  width: 300px;
+  transform: translate(0px, 150px);
+  z-index: -1;
+}
+
 .icons {
   position: absolute;
   z-index: 9999;
