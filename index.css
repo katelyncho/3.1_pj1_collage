@@ -1,3 +1,4 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Story+Script&display=swap"); */
 body {
   background-image: url("img/rainbow.png");
   background-size: cover;
@@ -11,8 +12,7 @@ body {
 header {
   padding: 10px;
   text-align: center;
-  color: transparent;
-  -webkit-text-stroke: 5px black;
+  font-family: "Major Mono Display", monospace;
   font-size: 30px;
 }
 
