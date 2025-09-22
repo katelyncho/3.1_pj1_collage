@@ -2,15 +2,15 @@
 
 // array of image paths, and the IDs of the images
 const imgs = [
-  "../img/test_1.png",
-  "../img/test_2.jpg",
-  "../img/test_3.png",
-  "../img/test_4.jpg",
-  "../img/test_5.png",
-  "../img/test_6.png",
-  "../img/test_7.png",
-  "../img/test_8.png",
-  "../img/test_9.png",
+  "../img/faice_1.png",
+  "../img/faice_2.png",
+  "../img/faice_3.png",
+  "../img/faice_4.png",
+  "../img/faice_5.png",
+  "../img/faice_6.png",
+  "../img/faice_7.png",
+  "../img/faice_8.png",
+  "../img/faice_9.png",
 ];
 const gridIds = [
   "item1",

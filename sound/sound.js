@@ -1,9 +1,12 @@
+// define each audio files
 var audio_hi = new Audio("../audio/hi.mp3");
 var audio_want = new Audio("../audio/want.mp3");
 var audio_comfort = new Audio("../audio/comfort.mp3");
 var audio_hunt = new Audio("../audio/hunt.mp3");
 var audio_warn = new Audio("../audio/warn.mp3");
 var audio_mad = new Audio("../audio/mad.mp3");
+
+// function for playing audio
 function myAudioFunction(letter) {
   if (letter == "a") {
     audio_hi.play();
@@ -20,9 +23,10 @@ function myAudioFunction(letter) {
   }
 }
 
-function changeImage() {
-  document.getElementById("item1").src = "../img/test_2.jpg";
+// input listeners
+function changeImage(event) {
+  event.target.src = "../img/sound_2.png";
 }
-function backImage() {
-  document.getElementById("item1").src = "../img/test_1.png";
+function backImage(event) {
+  event.target.src = "../img/sound_1.png";
 }

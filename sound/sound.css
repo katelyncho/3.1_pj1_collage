@@ -55,11 +55,12 @@ header {
 }
 
 #item2 {
-  background: blue;
+  background: white;
   grid-column: 1/2;
   grid-row: 2/3;
   text-align: center;
   align-content: center;
+  color: rgb(15, 226, 15);
 }
 
 #item3 {
@@ -72,11 +73,12 @@ header {
 }
 
 #item4 {
-  background: blue;
+  background: white;
   grid-column: 3/4;
   grid-row: 2/3;
   text-align: center;
   align-content: center;
+  color: rgb(15, 226, 15);
 }
 
 #item5 {
@@ -89,11 +91,12 @@ header {
 }
 
 #item6 {
-  background: blue;
+  background: white;
   grid-column: 5/6;
   grid-row: 2/3;
   text-align: center;
   align-content: center;
+  color: rgb(15, 226, 15);
 }
 
 #item7 {
@@ -106,11 +109,12 @@ header {
 }
 
 #item8 {
-  background: blue;
+  background: white;
   grid-column: 1/2;
   grid-row: 5/6;
   text-align: center;
   align-content: center;
+  color: rgb(15, 226, 15);
 }
 
 #item9 {
@@ -123,11 +127,12 @@ header {
 }
 
 #item10 {
-  background: blue;
+  background: white;
   grid-column: 3/4;
   grid-row: 5/6;
   text-align: center;
   align-content: center;
+  color: rgb(15, 226, 15);
 }
 
 #item11 {
@@ -140,11 +145,12 @@ header {
 }
 
 #item12 {
-  background: blue;
+  background: white;
   grid-column: 5/6;
   grid-row: 5/6;
   text-align: center;
   align-content: center;
+  color: rgb(15, 226, 15);
 }
 
 /* hyperlinks to move around pages */
