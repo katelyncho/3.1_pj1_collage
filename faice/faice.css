@@ -21,13 +21,19 @@ header {
   grid-row: 1/2;
   text-align: left;
   align-content: center;
+  font-family: "Handjet", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "ELGR" 1, "ELSH" 2;
+  font-size: 25px;
 }
 
 #title {
   grid-column: 2/3;
   grid-row: 1/2;
   text-align: center;
-  font-size: 30px;
+  font-family: "Major Mono Display", monospace;
+  font-size: 50px;
 }
 
 #gridcontainer {
@@ -105,6 +111,11 @@ header {
 
 #faceContainer {
   transform: translate(-250px, -100px);
+  font-family: "Handjet", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "ELGR" 1, "ELSH" 2;
+  /* font-size: 25px; */
 }
 
 /* horizontal and vertical sliders */
@@ -136,6 +147,11 @@ footer {
   grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: 1fr;
   padding-left: 20px;
+  font-family: "Handjet", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "ELGR" 1, "ELSH" 2;
+  font-size: 25px;
 }
 
 #footer_left {
