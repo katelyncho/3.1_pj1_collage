@@ -31,12 +31,14 @@ header {
 }
 
 #title {
+  background-color: rgb(15, 226, 15);
   grid-column: 2/3;
   grid-row: 1/2;
   text-align: center;
   font-family: "Major Mono Display", monospace;
   font-size: 50px;
-  color: white;
+  color: yellow;
+  outline: 5px solid yellow;
 }
 
 #gridcontainer {
@@ -72,6 +74,7 @@ header {
 
 #item3 {
   background: rgb(15, 226, 15);
+  outline: 3px solid yellow;
   grid-column: 3/5;
   grid-row: 2/3;
   text-align: center;
@@ -93,6 +96,7 @@ header {
 
 #item5 {
   background: rgb(15, 226, 15);
+  outline: 3px solid yellow;
   grid-column: 6/8;
   grid-row: 2/3;
   text-align: center;
@@ -114,6 +118,7 @@ header {
 
 #item7 {
   background: rgb(15, 226, 15);
+  outline: 3px solid yellow;
   grid-column: 9/11;
   grid-row: 2/3;
   text-align: center;
@@ -135,6 +140,7 @@ header {
 
 #item9 {
   background: rgb(15, 226, 15);
+  outline: 3px solid yellow;
   grid-column: 4/6;
   grid-row: 5/6;
   text-align: center;
@@ -156,6 +162,7 @@ header {
 
 #item11 {
   background: rgb(15, 226, 15);
+  outline: 3px solid yellow;
   grid-column: 7/9;
   grid-row: 5/6;
   text-align: center;
@@ -177,6 +184,7 @@ header {
 
 #item13 {
   background: rgb(15, 226, 15);
+  outline: 3px solid yellow;
   grid-column: 10/12;
   grid-row: 5/6;
   text-align: center;
@@ -198,6 +206,7 @@ header {
 
 #item15 {
   background: rgb(15, 226, 15);
+  outline: 3px solid yellow;
   grid-column: 3/5;
   grid-row: 8/9;
   text-align: center;
@@ -219,6 +228,7 @@ header {
 
 #item17 {
   background: rgb(15, 226, 15);
+  outline: 3px solid yellow;
   grid-column: 6/8;
   grid-row: 8/9;
   text-align: center;
@@ -240,6 +250,7 @@ header {
 
 #item19 {
   background: rgb(15, 226, 15);
+  outline: 3px solid yellow;
   grid-column: 9/11;
   grid-row: 8/9;
   text-align: center;
@@ -320,4 +331,9 @@ header {
   transform: translate(80px, 545px);
   color: white;
   z-index: 3;
+}
+
+.icons {
+  position: absolute;
+  z-index: 9999;
 }

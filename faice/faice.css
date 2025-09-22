@@ -9,6 +9,8 @@ body {
 
 /* header with title and home link */
 header {
+  background-image: url("../img/rainbow.png");
+  background-size: cover;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: 1fr;
@@ -34,6 +36,7 @@ header {
   text-align: center;
   font-family: "Major Mono Display", monospace;
   font-size: 50px;
+  color: red;
 }
 
 #gridcontainer {
@@ -111,11 +114,10 @@ header {
 
 #faceContainer {
   transform: translate(-250px, -100px);
-  font-family: "Handjet", sans-serif;
-  font-optical-sizing: auto;
+  font-family: "Rubik Pixels", system-ui;
   font-style: normal;
-  font-variation-settings: "ELGR" 1, "ELSH" 2;
-  /* font-size: 25px; */
+  font-size: 15px;
+  color: red;
 }
 
 /* horizontal and vertical sliders */
@@ -126,7 +128,7 @@ header {
 }
 
 #horizontalSlider {
-  width: 440px;
+  width: 400px;
 }
 
 #verticalSliderContainer {
@@ -170,7 +172,29 @@ footer {
   padding-right: 20px;
 }
 
-/* for etc images
-#imgcontainer {
+/* for etc images */
+#etcImages1 {
   position: absolute;
-} */
+  width: 200px;
+  transform: translate(1000px, 60px) rotate(-10deg);
+  z-index: 999;
+}
+
+#etcImages2 {
+  position: absolute;
+  width: 200px;
+  transform: translate(900px, 460px) rotate(10deg);
+  z-index: 999;
+}
+
+#etcImages3 {
+  position: absolute;
+  width: 500px;
+  transform: translate(1000px, 450px);
+  z-index: 1;
+}
+
+.icons {
+  position: absolute;
+  z-index: 9999;
+}
