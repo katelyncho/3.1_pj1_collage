@@ -15,10 +15,25 @@
     </header>
 
     <!-- images in the grid -->
+    <!-- click audio from: https://stackoverflow.com/questions/34696208/play-a-sound-on-image-click-in-html -->
+    <!-- image change from: https://www.w3schools.com/jsref/event_onmousedown.asp -->
     <div id="gridcontainer">
-      <img id="item1" src="img/test_1.png" alt="img" />
+      <img
+        id="item1"
+        src="img/test_1.png"
+        alt="img"
+        onmousedown="myAudioFunction('a'); changeImage()"
+        onmouseup="backImage()"
+      />
+
       <div id="item2">call</div>
-      <img id="item3" src="img/test_2.jpg" alt="img" />
+
+      <img
+        id="item3"
+        src="img/test_2.jpg"
+        alt="img"
+        onclick="myAudioFunction('b')"
+      />
       <div id="item4">comfort</div>
       <img id="item5" src="img/test_3.png" alt="img" />
       <div id="item6">happy</div>
@@ -42,6 +57,6 @@
       style="left: 80%; top: 10%; width: 200px; z-index: 1"
     /> -->
 
-    <!-- <script src="sound.js"></script> -->
+    <script src="sound.js"></script>
   </body>
 </html>

@@ -32,41 +32,12 @@ header {
 }
 
 #gridcontainer {
-  transform: translate(320px, 180px);
+  transform: translate(400px, 180px);
   width: 400px;
   height: 400px;
   display: grid;
   grid-template-columns: 150px 10px 150px 10px 150px;
   grid-template-rows: 150px 150px 150px;
-}
-
-/* hyperlinks to move around pages */
-footer {
-  margin-top: auto;
-  height: 80px;
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: 1fr;
-  background-color: lightgrey;
-  padding-left: 20px;
-}
-
-#footer_left {
-  background: green;
-  grid-column: 1/2;
-  grid-row: 1/2;
-  text-align: left;
-  align-content: center;
-  padding-left: 20px;
-}
-
-#footer_right {
-  background: green;
-  grid-column: 3/4;
-  grid-row: 1/2;
-  text-align: right;
-  align-content: center;
-  padding-right: 20px;
 }
 
 /* photos in the grid */
@@ -134,13 +105,14 @@ footer {
 }
 
 #faceContainer {
-  transform: translate(-300px, -100px);
+  transform: translate(-250px, -100px);
 }
 
-/* slider */
+/* horizontal and vertical sliders */
 #horizontalSliderContainer {
   position: absolute;
   transform: translate(74%, 140px);
+  z-index: 10;
 }
 
 #horizontalSlider {
@@ -150,10 +122,40 @@ footer {
 #verticalSliderContainer {
   position: absolute;
   transform: rotate(-90deg) translate(-400px, 100px);
+  z-index: 10;
 }
 
 #verticalSlider {
   width: 420px;
+}
+
+/* hyperlinks to move around pages */
+footer {
+  margin-top: auto;
+  height: 80px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr;
+  background-color: lightgrey;
+  padding-left: 20px;
+}
+
+#footer_left {
+  background: green;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  text-align: left;
+  align-content: center;
+  padding-left: 20px;
+}
+
+#footer_right {
+  background: green;
+  grid-column: 3/4;
+  grid-row: 1/2;
+  text-align: right;
+  align-content: center;
+  padding-right: 20px;
 }
 
 /* for etc images */
